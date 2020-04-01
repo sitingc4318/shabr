@@ -26,7 +26,8 @@ section{
 
 .sec1{
  background: url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);
- background-size: cover;;
+ background-size: cover;
+ opacity: .8;
 }
 
 nav{
@@ -87,7 +88,7 @@ nav.black{
 
 .pictures{
   background: green;
-  height: 150vh;
+  height: 145vh;
   width: 100%;
   text-align: center;
 }
