@@ -5,17 +5,15 @@ body{
 }
 
 header{
-/*  background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);*/
+  /*background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);*/
 /*  background-size: cover;*/
 /*  background-position: center;*/
 /*  height: 100vh;*/
 /*  width*/
-/*}*/
-
-  /*background: url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);*
-  
-
 }
+
+  /*background: url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);**/
+  
 
 section{
   width:100%;
