@@ -4,27 +4,16 @@ body{
   font-family: sans-serif;
 }
 
-header{
-  /*background: linear-gradient(rgba(0,0,100,0.5),rgba(0,0,100,0.5)),url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);*/
-/*  background-size: cover;*/
-/*  background-position: center;*/
-/*  height: 100vh;*/
-/*  width*/
-}
-
-  /*background: url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);**/
-  
-
 section{
   width:100%;
   height: 100vh;
 }
 
-.sec1{
+section.sec1{
  background: url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);
- background-size: cover;
- opacity: .8;
+  background-size: cover; 
 }
+
 
 nav{
   width:100%;
@@ -70,8 +59,13 @@ nav.black{
 }
 
 .home{
+<<<<<<< HEAD
+  background: rgb(255,255,102);
+  height: 100vh;
+=======
     background-image: linear-gradient(120deg, #0066b9, #3957aa, #80379b 80%);
     height: 120vh;
+>>>>>>> 0a8134caf350832f0363eca330e40d408dcf8832
   width: 100%;
 }
 
@@ -80,6 +74,7 @@ nav.black{
   height: 105vh;
   width: 100%;
   text-align: center;
+  color: black;
 }
 
 .pictures{
@@ -116,4 +111,14 @@ p{
   padding: 20px;
   font-family: Helvetica, sans-serif;
 }
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 100px;
+        text-align: center;
+    }
 
+    h3 {
+        font-size: 70px;
+        text-align: center;
+    }
+}
