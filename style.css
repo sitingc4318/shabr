@@ -12,60 +12,78 @@ section{
 section.sec1{
  background: url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);
   background-size: cover; 
+  text-align: center;
+  /*padding-top: 100px;*/
+  color: bkack;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+section.sec1 h1{
+/*  padding-bottom: 500px;*/
+  font-size: 70px;
+}
+
+section.sec1 h4{
+   /*padding-bottom: 50px;*/
+  font-size: 30px;
 }
 
 
 nav{
-  width:100%;
-  height: 50px;
+  /*width:100%;*/
+  /*height: 50px;*/
   background: rgba(0,0,0,0.8);
-  border-top: 1px solid rgba(255,255,255,.2);
-  border-bottom: 1px solid rgba(255,255,255,.2);
+  /*border-top: 1px solid rgba(255,255,255,.2);*/
+  /*border-bottom: 1px solid rgba(255,255,255,.2);*/
    position: sticky;
    top: 0;
+   
 }
 
 nav ul{
+  /*padding: 2px;*/
   display: flex;
   margin: 0;
-  padding: 0 100px;
-  float: right;
+  /*padding: 0 100px*/
+   justify-content: center;
+   list-style: none;
 }
 
 /*text position*/
 nav ul li{ 
-  list-style: none;
+  padding: 10px ;2px;
+  /*list-style: none*/
 }
 
 nav ul li a{
-  display: block;
-  padding: 0 20px;
   text-decoration: none;
-  color: white;
   font-size: 16px;
+  color: #fff;
+  font-family: sans-serif;
+  /*display: block;*/
   text-transform: uppercase;
   font-weight: bold;
-  line-height: 50px;
+  
+  
 }
 
 nav.black{
   background: #000;
 }
 
-.intro{ 
-  background: yellow;
-  height: 100vh;
-  width: 100%;
+@media only screen and (max-width: 767px){
+  nav ul{
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+  }
 }
 
 .home{
-<<<<<<< HEAD
   background: rgb(255,255,102);
   height: 100vh;
-=======
-    background-image: linear-gradient(120deg, #0066b9, #3957aa, #80379b 80%);
-    height: 120vh;
->>>>>>> 0a8134caf350832f0363eca330e40d408dcf8832
+  background-image: linear-gradient(120deg, #0066b9, #3957aa, #80379b 80%);
+  height: 120vh;
   width: 100%;
 }
 
@@ -79,16 +97,24 @@ nav.black{
 
 .pictures{
   background: green;
-  height: 145vh;
+  height: 150vh;
   width: 100%;
   text-align: center;
 }
 
 .testimonals{
   background: white;
-  height: 100vh
+  height: 170vh;
   width: 100%;
   text-align: center;
+  font-family: 'Dancing Script', cursive;
+  padding-top: 30px;
+  font-size: 5px
+}
+
+.testimonals p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
 }
 
 .contact{
@@ -97,6 +123,7 @@ nav.black{
   width: 100%;
   text-align: center;
   padding-top: 150px;
+  font-size: 15px;
 }
 
 .end{
