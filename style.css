@@ -11,7 +11,7 @@ section{
 
 section.sec1{
  background: url(https://media.daysoftheyear.com/20171223122352/hot-air-balloon-day2.jpg);
-  background-size: cover; 
+  background-size: cover;
   text-align: center;
   /*padding-top: 100px;*/
   color: bkack;
@@ -37,7 +37,7 @@ nav{
   /*border-bottom: 1px solid rgba(255,255,255,.2);*/
    position: sticky;
    top: 0;
-   
+   z-index: 1000;
 }
 
 nav ul{
@@ -50,7 +50,7 @@ nav ul{
 }
 
 /*text position*/
-nav ul li{ 
+nav ul li{
   padding: 10px ;2px;
   /*list-style: none*/
 }
@@ -63,21 +63,21 @@ nav ul li a{
   /*display: block;*/
   text-transform: uppercase;
   font-weight: bold;
-  
-  
+
+
 }
 
 nav.black{
   background: #000;
 }
 
-@media only screen and (max-width: 767px){
-  nav ul{
-    height: 230px;
-    flex-direction: column;
-    text-align: center;
-  }
-}
+/*@media only screen and (max-width: 500px){*/
+/*  nav ul{*/
+/*    height: 230px;*/
+/*    flex-direction: column;*/
+/*    text-align: center;*/
+/*  }*/
+/*}*/
 
 .home{
   background: rgb(255,255,102);
@@ -138,14 +138,24 @@ p{
   padding: 20px;
   font-family: Helvetica, sans-serif;
 }
-@media (min-width: 1200px) {
-    h1 {
-        font-size: 100px;
-        text-align: center;
-    }
 
-    h3 {
-        font-size: 70px;
-        text-align: center;
-    }
+@media all and (max-width: 500px){
+  nav ul{
+    height: 230px;
+    flex-direction: column;
+    text-align: center;
+  }
 }
+
+
+/*@media (min-width: 1200px) {*/
+/*    h1 {*/
+/*        font-size: 100px;*/
+/*        text-align: center;*/
+/*    }*/
+
+/*    h3 {*/
+/*        font-size: 70px;*/
+/*        text-align: center;*/
+/*    }*/
+/*}*/
